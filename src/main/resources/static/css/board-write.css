@@ -1,0 +1,74 @@
+@charset "UTF-8";
+/* 기본 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f5f6f8;
+    color: #333;
+}
+
+/* 컨테이너 */
+.container {
+    width: 600px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* 제목 */
+.container h1 {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* 입력 그룹 */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* textarea 높이 */
+.form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+/* 버튼 영역 */
+.button-area {
+    text-align: right;
+}
+
+/* 등록 버튼 */
+.submit-btn {
+    padding: 10px 18px;
+    background-color: #50f1f1;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #47d3d3;
+}
+
+/* 목록 링크 */
+.list-link {
+    display: inline-block;
+    margin-top: 15px;
+    color: #4a6cf7;
+    text-decoration: none;
+}

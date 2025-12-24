@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* 전체 기본 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f5f6f8;
+    color: #333;
+}
+
+/* 페이지 컨테이너 */
+.container {
+    width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* 제목 */
+.container h1 {
+    margin-top: 0;
+    text-align: center;
+    color: #222;
+}
+.write-btn-wrap {
+	text-align: right;	
+}
+
+/* 글 작성 버튼 */
+.write-btn {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #12ede8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.write-btn:hover {
+    background-color: #2fd0cc;
+}
+
+/* 게시글 목록 */
+.board-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.board-list li {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.board-list li:last-child {
+    border-bottom: none;
+}
+
+/* 게시글 링크 */
+.board-list a {
+    display: block;
+    padding: 12px 8px;
+    color: #333;
+    text-decoration: none;
+}
+
+.board-list a:hover {
+    background-color: #f0f2f7;
+    color: #4a6cf7;
+}

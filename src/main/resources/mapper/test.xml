@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="com.example.demo.mapper.TestMapper">
+  	<select id="findAll" resultType="Test">
+  		SELECT * FROM ex
+  	</select> 
+  	<insert id="InsertUser" parameterType="Test">
+  		INSERT INTO ex (id,pw,name) VALUES (#{id},#{pw},#{name})
+  	</insert>
+  	<select id="UserDetail" resultType="Test" parameterType="String">
+  		SELECT * FROM ex WHERE id = #{id}
+  	</select>
+  </mapper>
