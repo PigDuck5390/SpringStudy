@@ -8,7 +8,7 @@
 <title>게시글 상세</title>
 
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/css/board-detail.css">
+	href="/css/board-detail.css">
 
 </head>
 <body>

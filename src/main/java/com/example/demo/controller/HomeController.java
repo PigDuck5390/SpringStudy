@@ -28,15 +28,15 @@ public class HomeController {
 		return "sample";
 	}
 	
-	@PostMapping("/regist")
-	public String Regist(Test test) {
-		System.out.println(test.getId());
-		System.out.println(test.getPw());
-		System.out.println(test.getName());
-		testService.SaveUser(test);
-		return "redirect:/sample";
-		
-	}
+//	@PostMapping("/regist")
+//	public String Regist(Test test) {
+//		System.out.println(test.getId());
+//		System.out.println(test.getPw());
+//		System.out.println(test.getName());
+//		testService.SaveUser(test);
+//		return "redirect:/sample";
+//		
+//	}
 	@GetMapping("/userlist")
 	public String UserList(Model model) {
 		List<Test> userlist = testService.getList();

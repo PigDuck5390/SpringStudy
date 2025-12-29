@@ -7,7 +7,7 @@
 <title>글 작성</title>
 
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/css/board-write.css">
+	href="/css/board-write.css">
 
 </head>
 <body>

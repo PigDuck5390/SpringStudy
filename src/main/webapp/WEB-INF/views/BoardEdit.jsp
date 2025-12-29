@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 
 <link rel="stylesheet"
-	href="${pageContext.request.contextPath}/css/board-edit.css">
+	href="/css/board-edit.css">
 
 </head>
 <body>
